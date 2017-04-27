@@ -1,17 +1,6 @@
-# manifest-android
-
-Update your Android mobile application manifest (version, bundle idenfifier, ...).
-
-## Install
-
-```sh
-$ npm install --save manifest-android
-```
-
-## Quickstart
-
-```js
+var assert = require('assert');
 var path = require('path');
+
 var AndroidManifest = require('..');
 
 var android = new AndroidManifest();
@@ -23,8 +12,3 @@ android.load({ file: path.join(__dirname, "AndroidManifest.xml") }, function(err
         console.log("DONE");
     })
 })
-```
-
-## Copyright and license
-
-MIT © [Aloïs Deniel](http://aloisdeniel.github.io)

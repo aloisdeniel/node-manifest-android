@@ -1,0 +1,29 @@
+{
+  "name": "manifest-android",
+  "version": "0.1.0",
+  "description": "Update your Android mobile application manifest (version, bundle idenfifier, ...).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloisdeniel/node-manifest-android.git"
+  },
+  "keywords": [
+    "android",
+    "manifest",
+    "versionning",
+    "tool"
+  ],
+  "author": "Aloïs Deniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aloisdeniel/node-manifest-android/issues"
+  },
+  "homepage": "https://github.com/aloisdeniel/node-manifest-android#readme",
+  "dependencies": {
+    "parse-version": "^0.7.0",
+    "xmlobject": "^0.6.4"
+  }
+}
