@@ -12,7 +12,7 @@ $ npm install --save manifest-android
 
 ```js
 var path = require('path');
-var AndroidManifest = require('..');
+var AndroidManifest = require('manifest-android');
 
 var android = new AndroidManifest();
 android.load({ file: path.join(__dirname, "AndroidManifest.xml") }, function(err){
@@ -24,6 +24,11 @@ android.load({ file: path.join(__dirname, "AndroidManifest.xml") }, function(err
     })
 })
 ```
+
+## Other manifests
+
+* [iOS](https://github.com/aloisdeniel/node-manifest-ios)
+* [UWP](https://github.com/aloisdeniel/node-manifest-uwp)
 
 ## Copyright and license
 

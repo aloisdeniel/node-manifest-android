@@ -1,6 +1,6 @@
 {
   "name": "manifest-android",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Update your Android mobile application manifest (version, bundle idenfifier, ...).",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/aloisdeniel/node-manifest-android#readme",
   "dependencies": {
     "parse-version": "^0.7.0",
-    "xmlobject": "^0.6.4"
+    "xmlobject": "^0.6.5"
   }
 }
